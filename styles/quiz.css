@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: rgb(56, 56, 56);
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 0.8rem;
+    font-size: 2rem;
+    color:rgb(0, 119, 155);
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    border-radius: 0.5rem;
+    background-color: rgba(93, 112, 128, 0.123);
+    display: glid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.8rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 0.4rem;
+}
+
+label, input, button, select, textarea{
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(44, 171, 221);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: .8rem;
+    padding: .75rem;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    background-color: rgb(122, 159, 240);
+}
+
+footer {
+    margin: 0.5rem auto 0;
+    width: 650x;
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgb(85, 85, 85);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
