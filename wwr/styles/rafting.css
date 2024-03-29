@@ -144,7 +144,6 @@ form {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: rgba(138, 247, 242, 0.89);
-    display: glid;
 }
 
 fieldset{
@@ -168,7 +167,6 @@ input[type="checkbox"] {
 input[type="radio"] {
     width: 15px;
     height: 15px;
-    vertical-align: auto;
 }
 
 button {
@@ -187,7 +185,7 @@ button:hover {
 
 footer {
     margin: 1rem auto 0;
-    width: 650x;
+    width: 650px;
     text-align: center;
     font-size: 0.8rem;
     color: rgb(85, 85, 85);
