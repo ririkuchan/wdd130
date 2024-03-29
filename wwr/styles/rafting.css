@@ -39,9 +39,10 @@ p {
 }
 
 .hero img {
-    position: relative; /* コンテナの相対位置を維持 */
+    display: block; 
+    width: 100%;
+    height: auto;
 }
-
 
 .whitewater img{
     width: auto; 
@@ -54,15 +55,6 @@ nav.sociallinks a img {
     text-decoration: none;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #d6a4a4; /* 背景色 */
-    padding: 20px;
-  }
 
 article {
     margin-top: 20px;
