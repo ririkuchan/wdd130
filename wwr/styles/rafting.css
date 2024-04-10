@@ -316,3 +316,6 @@ footer a:hover {
     border: 1px solid #ddd;
 }
 
+@media only screen and (max-width: 600px) {
+    width: 100%;
+}
