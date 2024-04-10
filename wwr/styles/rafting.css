@@ -249,3 +249,48 @@ footer a:hover {
     margin-bottom: 10px;
 }
 
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center; /* テキストを中央に揃える */
+    display: block; /* ボタンをブロック要素に変更して、中央揃えが適用されるようにする */
+    width: 200px; /* ボタンの幅を設定 */
+    margin: 0 auto; /* 左右のマージンを自動的に設定して、ボタンを水平方向に中央に配置 */
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.trip-table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow-x: auto; /* テーブルが画面をはみ出したときに横スクロールバーを表示 */
+}
+
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-table th {
+    background-color: #f2f2f2;
+}
+
+.trip-table thead {
+    display: table-header-group; /* ヘッダー行を表のヘッダーとして表示 */
+}
+
+.trip-table tbody {
+    display: table-row-group; /* 本文部分を表の行グループとして表示 */
+}
