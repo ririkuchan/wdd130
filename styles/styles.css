@@ -134,6 +134,17 @@ aside{
         padding: 0.5rem 0; /* ナビゲーション項目の上下の余白を追加 */
     }
 
+    .grid {
+        display: block; /* グリッドレイアウトをブロックレベル要素に変更 */
+    }
+
+    main,
+    aside {
+        width: 100%; /* mainとasideを幅いっぱいに設定 */
+        margin: 1rem 0; /* 上下の余白を追加 */
+    }
+
+
     aside {
         width: 100%; /* サイドバーを横幅いっぱいに拡大 */
         height: 100%;
