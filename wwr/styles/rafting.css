@@ -332,21 +332,21 @@ footer a:hover {
     }
 
     .hero-text {
-        width: 80%; /* テキストの幅を調整 */
+        width: auto; /* テキストの幅を調整 */
         text-align: center;
     }
 
     .hero-text h1 {
-        font-size: 20px;
+        font-size: auto;
     }
 
     .hero-text article {
-        font-size: 14px;
+        font-size: auto;
     }
     
 
     .hero-text p {
-        font-size: 14px;
+        font-size: auto;
     }
 
     .grid-section {
@@ -357,11 +357,12 @@ footer a:hover {
         padding: 10px;
     }
 
-    footer {
-        padding: 10px;
+    form {
+        width: 100%;
     }
 
-    footer img {
-        width: 30px;
+    footer p {
+        width: 60%;
     }
+    
 }
