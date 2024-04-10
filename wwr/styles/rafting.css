@@ -315,3 +315,17 @@ footer a:hover {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
 }
+
+@media only screen and (max-width: 600px) {
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 20px;
+    }
+
+    .hero-text article {
+        font-size: 14px;
+    }
+}
