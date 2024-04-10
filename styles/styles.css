@@ -156,10 +156,12 @@ aside{
         float: none; /* 画像の浮動を解除 */
         margin: 0 auto 1rem; /* 画像のマージンを追加して中央配置 */
         display: block; /* 画像をブロックレベル要素として表示 */
+        width: 100%;
+        height: auto;
     }
 
     main h1 {
         width: 100%; /* サイドバーを横幅いっぱいに拡大 */
-        font-size: medium;
+        font-size:x-large;
     }
 }
