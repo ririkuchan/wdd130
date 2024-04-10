@@ -121,3 +121,24 @@ aside{
     grid-column: 1/2;
     grid-row: 1/2;
 }
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column; /* ナビゲーション項目を縦方向に配置 */
+    }
+
+    nav a {
+        padding: 0.5rem 0; /* ナビゲーション項目の上下の余白を追加 */
+    }
+
+    aside {
+        width: 100%; /* サイドバーを横幅いっぱいに拡大 */
+        margin: 1rem 0; /* サイドバーの上下の余白を追加 */
+    }
+
+    main img {
+        float: none; /* 画像の浮動を解除 */
+        margin: 0 auto 1rem; /* 画像のマージンを追加して中央配置 */
+        display: block; /* 画像をブロックレベル要素として表示 */
+    }
+}
