@@ -126,6 +126,7 @@ aside{
 @media only screen and (max-width: 600px) {
     nav {
         flex-direction: column; /* ナビゲーション項目を縦方向に配置 */
+        background-color: #a8e2fd;
     }
 
     nav a {
@@ -136,6 +137,7 @@ aside{
         width: 100%; /* サイドバーを横幅いっぱいに拡大 */
         height: 100%;
         margin: 1rem 0; /* サイドバーの上下の余白を追加 */
+        background-color: rgb(230, 190, 189);
     }
 
     main img {
@@ -146,5 +148,6 @@ aside{
 
     main h1 {
         width: 100%; /* サイドバーを横幅いっぱいに拡大 */
+        font-size: small;
     }
 }
