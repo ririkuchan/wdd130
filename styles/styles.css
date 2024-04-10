@@ -138,7 +138,7 @@ aside{
         width: 100%; /* サイドバーを横幅いっぱいに拡大 */
         height: 100%;
         margin: 1rem 0; /* サイドバーの上下の余白を追加 */
-        background-color: rgb(230, 190, 189);
+        background-color: rgb(245, 217, 216);
     }
 
     main img {
@@ -149,6 +149,6 @@ aside{
 
     main h1 {
         width: 100%; /* サイドバーを横幅いっぱいに拡大 */
-        font-size: small;
+        font-size: medium;
     }
 }
