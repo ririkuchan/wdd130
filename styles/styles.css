@@ -127,6 +127,7 @@ aside{
     nav {
         flex-direction: column; /* ナビゲーション項目を縦方向に配置 */
         background-color: #a8e2fd;
+        border: solid 0.5px;
     }
 
     nav a {
