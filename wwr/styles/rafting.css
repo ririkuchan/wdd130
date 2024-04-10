@@ -317,7 +317,22 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
     .hero-text {
+        width: 80%; /* テキストの幅を調整 */
         text-align: center;
     }
 
@@ -327,5 +342,26 @@ footer a:hover {
 
     .hero-text article {
         font-size: 14px;
+    }
+    
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .grid-section {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .grid-item {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer img {
+        width: 30px;
     }
 }
